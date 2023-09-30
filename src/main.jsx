@@ -7,6 +7,8 @@ import SubHeading from './SubHeading.jsx'
 import TodoList from './TodoList.jsx'
 import PeopleLIst from './PeopleList.jsx'
 import Button from "./Button.jsx";
+import ColorPicker from "./ColorPicker.jsx";
+import Gallery from "./Gallery.jsx";
 import './index.css'
 
 const handleButtonClick = (url) => {
@@ -23,5 +25,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <div>
       <Button handleClick={handleButtonClick}/>
     </div>
+    <ColorPicker />
+    <Gallery />
   </React.StrictMode>,
 )

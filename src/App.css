@@ -1,8 +1,9 @@
 #root {
-  max-width: 1280px;
+  /*max-width: 1280px;*/
+  width: 100vw;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
+  /*text-align: center;*/
 }
 
 .logo {
@@ -39,4 +40,42 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.ColorPicker {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: 100vh;
+  margin-bottom: 2rem;
+  transition: all 0.1s ease-in;
+}
+
+.ColorPicker p {
+  color: #000;
+}
+
+.ColorPicker button {
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 0.5rem;
+  color: #000;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.ColorPicker button:hover {
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+}
+
+.ColorPicker button.selected {
+  outline: 5px solid #000;
+  background-color: #fff;
 }
