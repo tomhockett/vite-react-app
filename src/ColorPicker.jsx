@@ -3,7 +3,7 @@ import "./App.css";
 
 const COLORS = ["pink", "green", "blue", "yellow", "purple"];
 
-function ColorPicker() {
+export default function ColorPicker() {
   const [backgroundColor, setBackgroundColor] = useState(COLORS[0]);
   const [timesClicked, setTimesClicked] = useState(0);
 
@@ -37,5 +37,3 @@ function ColorPicker() {
     </div>
   );
 }
-
-export default ColorPicker;

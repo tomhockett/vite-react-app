@@ -1,4 +1,4 @@
-function Button({text = "Click Me!", color = "blue", fontSize = 12, handleClick}) {
+ export default function Button({text = "Click Me!", color = "blue", fontSize = 12, handleClick}) {
   const buttonStyle = {
     color: color,
     fontSize: fontSize + 'px'
@@ -11,5 +11,3 @@ function Button({text = "Click Me!", color = "blue", fontSize = 12, handleClick}
     </button>
   )
 }
-
-export default Button;
