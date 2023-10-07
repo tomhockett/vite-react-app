@@ -10,6 +10,7 @@ import Button from "./Button.jsx";
 import ColorPicker from "./ColorPicker.jsx";
 import Gallery from "./Gallery.jsx";
 import Person from "./Person.jsx";
+import CustomInput from "./CustomInput.jsx";
 import './index.css'
 
 const handleButtonClick = (url) => {
@@ -29,5 +30,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <ColorPicker />
     <Gallery />
     <Person />
+    <CustomInput />
   </React.StrictMode>,
 )
